@@ -7,6 +7,10 @@ This is the second step in our journey to do cool things by combining Pi with Ak
 ## What does this do?
 It uses the power of Akka Clustering to allow communication amongst many Raspberry Pi computers, complete with built-in gossipping, cluster state convergance, and fault-tolerance (it gracefully handles member nodes joining and leaving at any time). This example also has some custom messaging built in. Every node in the cluster periodically sends runtime information about itself to another node in the cluster (using Akka routing). 
 
+This demo shows a node (my laptop) being forcefully taken out of service. Notice how both the Raspberry Pi nodes instantly respond by marking the failed node as temporarily down and eventually fully terminated (Pi's are the top 2 panes, laptop is the bottom):
+
+![clustered-pi](http://i.imgur.com/9LJDqMA.gif "Akka clustering with Rasberry Pi")
+
 ## Running the example
 
 ### Building a fat jar
