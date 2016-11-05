@@ -1,7 +1,7 @@
 # Clustered Pumpkins
-=============
+This is the second step in our journey to do cool things by combining Pi with Akka/Scala, bringing us closer to making fully interactive pumpkins! This time we get Akka Cluster going with 2 raspberry pi's and my laptop as a 3rd node just to show off the versatility of Akka/Scala. Check out this sweet gif of 2 pi's and a laptop in a clustered setup:
 
-This is basically the second step in our journey to do crazy things with Pi/Akka/Scala and get closer to making interactive pumpkins. This time we get Akka Cluster going with 2 rasberry pi's and my laptop as a 3rd node just to show off the versatility of Akka/Scala in this case. 
+![clustered-pi](http://i.imgur.com/YJEFpFm.gif "Akka clustering with Rasberry Pi")
 
 ## Running the example
 
